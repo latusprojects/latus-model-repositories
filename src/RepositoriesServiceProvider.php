@@ -3,6 +3,7 @@
 namespace Latus\Repositories;
 
 use Illuminate\Support\ServiceProvider;
+use Latus\Repositories\Contracts\Repository;
 
 class RepositoriesServiceProvider extends ServiceProvider
 {
@@ -13,6 +14,6 @@ class RepositoriesServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
+        $this->app->bind(Repository::class, EloquentRepository::class);
     }
 }
