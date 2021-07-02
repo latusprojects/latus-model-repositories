@@ -7,7 +7,7 @@ namespace Latus\Repositories;
 use Illuminate\Database\Eloquent\Model;
 use Latus\Repositories\Contracts\Repository;
 
-class EloquentRepository implements Repository
+abstract class EloquentRepository implements Repository
 {
 
     protected Model $model;
