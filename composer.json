@@ -1,27 +1,27 @@
 {
-    "name": "latusprojects/latus-model-repositories",
-    "type": "library",
-    "description": "",
-    "authors": [
-        {
-            "name": "Max Latussek",
-            "email": "latusschnecke@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^8.0",
-        "laravel/framework": "8.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Latus\\Repositories\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Latus\\Repositories\\RepositoriesServiceProvider"
-            ]
-        }
+  "name": "latusprojects/latus-model-repositories",
+  "type": "library",
+  "description": "",
+  "authors": [
+    {
+      "name": "Max Latussek",
+      "email": "latusschnecke@gmail.com"
     }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Latus\\Repositories\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Latus\\Repositories\\RepositoriesServiceProvider"
+      ]
+    }
+  }
 }
