@@ -22,6 +22,9 @@
       "providers": [
         "Latus\\Repositories\\RepositoriesServiceProvider"
       ]
+    },
+    "branch-alias": {
+      "dev-develop": "0.1.x-dev"
     }
   }
 }
