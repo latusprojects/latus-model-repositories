@@ -1,6 +1,6 @@
 <?php
 
-namespace Latus\Repositories\Database\Query;
+namespace Latus\Repositories\Database;
 
 class Builder
 {
