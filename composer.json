@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": "^8.0",
-    "laravel/framework": "8.*"
+    "laravel/framework": "^9"
   },
   "autoload": {
     "psr-4": {
@@ -22,9 +22,6 @@
       "providers": [
         "Latus\\Repositories\\RepositoriesServiceProvider"
       ]
-    },
-    "branch-alias": {
-      "dev-develop": "0.1.x-dev"
     }
   }
 }
